@@ -29,7 +29,7 @@ class TweetListener(StreamListener):
         embed.add_field(name="Tweet:", value=text, inline=False)
         embed.add_field(name="Time:", value=time, inline=False)
         embed.add_field(name="Link:", value=tweet_url, inline=False)
-        embed.set_footer(text="Webhook made by GIO Systems", icon_url="https://gio-systems.me/data/gio-logo.png")
+        embed.set_footer(text="Webhook made by gabrielix29", icon_url="https://avatars2.githubusercontent.com/u/57343754?s=400&u=b453123201189a7bf012aedcb8abd317ca557e69&v=4")
 
         hook.send(embed=embed)
         return True
